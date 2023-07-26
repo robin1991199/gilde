@@ -1,12 +1,12 @@
 // Player 1
 const int p1InputPins[] = {2, 3, 4, 5, 6, 7, 8};
-const int p1OutputPins[] = {22, 23, 24, 25, 26, 27, 28};
+const int p1OutputPins[] = {22, 24, 26, 28, 30, 32, 34};// pin 36 extra
 const int p1ResetPin = 16;
 int p1Score = 0;
 
 // Player 2
 const int p2InputPins[] = {9, 10, 11, 12, 13, 14, 15};
-const int p2OutputPins[] = {29, 30, 31, 32, 33, 34, 35};
+const int p2OutputPins[] = {23, 25, 27, 29, 31, 33, 35}; // pin 37 extra
 const int p2ResetPin = 16;
 int p2Score = 0;
 
